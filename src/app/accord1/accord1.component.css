@@ -1,0 +1,22 @@
+.e-accordion .e-acrdn-item .e-acrdn-header {
+    line-height: 15px;
+    text-align: center;
+}
+.e-accordion .e-acrdn-item .e-acrdn-panel .e-acrdn-content {
+    padding: 0px;
+}
+ ul  {
+	list-style-type: none;
+	padding-left: 45%; 
+}
+.e-accordion .e-acrdn-item.e-select {
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    background-color: whitesmoke;
+}
+.e-accordion .e-acrdn-item.e-select.e-selected.e-expand-state > .e-acrdn-header, .e-accordion .e-acrdn-item.e-select.e-expand-state > .e-acrdn-header {
+    background: #cceee2;
+}
+h5{
+	align-content: center;
+}

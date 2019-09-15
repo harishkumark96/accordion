@@ -1,0 +1,25 @@
+<ejs-accordion>
+  <e-accordionitems>
+    <e-accordionitem expanded='true'>
+      <ng-template #header class="head">
+        <div>
+           <h5>Front-end
+           </h5>
+       </div>
+      </ng-template>
+      <ng-template #content>
+	        <div>
+	  <p class="font-italic">Microsoft ASP.NET is a set of technologies in the Microsoft .NET Framework for building Web applications and XML Web servicesFront-end is a term that involves the building of webpages and user interfaces for web-applications. It implements the structure, design, behavior, and animation of everything you see on the screen when you open up websites, web applications, or mobile apps. The core 3 technologies that all modern front-end web developers work to master are HTML5, CSS, and JavaScript.</p>
+	        </div>
+	<div class="nav">
+	  <ul>
+	    <li><a routerLink="/html">Html</a></li>
+	    <li><a routerLink="/css">CSS3</a></li>
+	    <li><a routerLink="/javascript" >Javascript</a></li>
+	  </ul>  
+	</div>
+	<router-outlet></router-outlet>
+      </ng-template>
+    </e-accordionitem>
+</e-accordionitems>
+</ejs-accordion>
